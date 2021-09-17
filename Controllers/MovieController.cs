@@ -99,7 +99,7 @@ namespace MovieAppWorkshop.Controllers
             catch (Exception)
             {
 
-                BadRequest();
+              return  BadRequest();
             }
         }
 
@@ -115,7 +115,7 @@ namespace MovieAppWorkshop.Controllers
             catch (Exception)
             {
 
-                BadRequest();
+                return BadRequest();
             }
         }
     }

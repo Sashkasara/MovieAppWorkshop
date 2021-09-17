@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MovieAppWorkshop.Services
 {
-    interface IMovieService
+        public interface IMovieService
     {
         List<MovieDto> GetAllMovies();
 
